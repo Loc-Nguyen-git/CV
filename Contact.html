@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Send me a message</h1>
+    <form action="mailto:locng55@gmail.com" method="POST" enctype="text/plain">
+        <div>
+            <label id="name-label" for="name">Name:</label>
+            <input type="text" name="name" id="name" value="" placeholder="Enter your name here" required>
+        </div>
+        <div>
+            <label id="email-label" for="email">Email:</label>
+            <input type="email" name="email" id="email" value="" placeholder="Enter your email here" required>
+        </div>
+        <div>
+            <label id="contact#-label" for="contact#">Contact#:</label>
+            <input type="text" name="contact#" id="contact#" value="" placeholder="Enter your phone here" pattern="[0-9]*" maxlength="10" minlength="10" size = "10">
+        </div>
+        <div>
+            <label id="message-label" for="messgae">Your Messgae:</label>
+            <textarea type="text" name="message" id="message" placeholder="Enter your message here"></textarea>
+        </div>
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>
