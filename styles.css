@@ -1,0 +1,36 @@
+body {
+    background-color: C8C6C6;
+}
+
+hr {
+    border-style: dotted none none none;
+    color: #4B6587;
+    width: 10%;
+    border-width: 5px;
+}
+
+h1, h3 {
+    font-family: Abril Fatface, monospace;
+    color: #4B6587;
+
+}
+
+header {
+    display: flex;
+    flex-direction:  row;
+}
+
+footer {
+    display: flex;
+    flex-direction:  column;
+}
+
+.profile-picture {
+    display: flex;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
